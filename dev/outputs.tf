@@ -6,6 +6,6 @@
 #  value = aws_instance.blog.arn
 #}
 
-output "environment_URL" {
-  value = module.blog_alb.lb_dns_name
+module "output" {
+    source = "../modules/blog/outputs.tf"
 }
