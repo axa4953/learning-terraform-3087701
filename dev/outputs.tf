@@ -7,5 +7,5 @@
 #}
 
 module "output" {
-    source = "../modules/blog/outputs.tf"
+    source = "../modules/blog"
 }
