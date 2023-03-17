@@ -21,7 +21,7 @@ module "blog_vpc" {
   cidr = "${var.Environment.network_prefix}.0.0/16"
 
   azs             = ["us-west-2a","us-west-2b","us-west-2c"]
-  public_subnets  = ["${var.Environment.network_prefix}.0.101.0/24", "${var.Environment.network_prefix}.0.102.0/24", "${var.Environment.network_prefix}.0.103.0/24"]
+  public_subnets  = ["${var.Environment.network_prefix}.101.0/24", "${var.Environment.network_prefix}.102.0/24", "${var.Environment.network_prefix}.103.0/24"]
 
   enable_nat_gateway = true
 
