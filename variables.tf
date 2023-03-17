@@ -19,7 +19,7 @@ variable "ami_filter" {
   
 }
 
-variable =" Environment" {
+variable "Environment" {
   description = "Environment name"
 
   type = object ({
@@ -33,12 +33,12 @@ variable =" Environment" {
   }
 }
   
-variable = "min_size" {
+variable "min_size" {
   description = "Min number of instances in the ASG"
   default = 1
 }
 
-variable = "max_size" {
+variable "max_size" {
   description = "Max number of instances in the ASG"
   default = 2
 }
